@@ -1,0 +1,29 @@
+.patients-page {
+  padding: 20px;
+}
+
+.patients-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.patients-table th,
+.patients-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.patients-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.patients-table tr:hover {
+  background-color: #f9f9f9;
+}

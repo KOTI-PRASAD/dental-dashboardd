@@ -1,0 +1,57 @@
+.reports-container {
+  padding: 30px;
+  background-color: #f9fbfd;
+  min-height: 100vh;
+}
+
+.reports-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.reports-table-wrapper {
+  overflow-x: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.reports-table th {
+  background-color: #f1f4f8;
+  font-weight: bold;
+  color: #555;
+}
+
+.reports-table td {
+  color: #444;
+}
+
+.paid {
+  color: green;
+  font-weight: bold;
+}
+
+.pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.reports-table tr:hover {
+  background-color: #f9f9f9;
+}

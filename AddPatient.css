@@ -1,0 +1,35 @@
+.add-patient-container {
+  background-color: #f0fff4; /* light greenish background */
+  padding: 30px;
+  border-radius: 8px;
+  min-height: 90vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-patient-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-patient-form input,
+.add-patient-form select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-patient-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-patient-form button:hover {
+  background-color: #218838;
+}
